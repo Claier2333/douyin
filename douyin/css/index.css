@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-family: arial;
+}
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.page-header{
+  padding-top: 20px;
+  padding-right: 10px;
+  text-align: right;
+}
+.page-header nav.logo{
+  text-align: left;
+}
+.page-header nav{
+  font-size:16px;
+  font-weight: 700;
+  margin-left: 20px;
+  justify-content :flex-end：
+}
+.page-mainer{
+  flex: 1;
+  text-align: right;
+  margin-top: 100px;
+}
+.page-mainer.slogan-container img{
+  width: 500px;
+  height: 100px;
+}
+.page-mainer .tupian-container .appstore-container{
+  width: 180px;
+  height: 90px;
+  margin-bottom:10px;
+  text-align: right;
+}
+.page-mainer .tupian-container .android-container{
+  width: 180px;
+  height: 90px;
+  margin-bottom:10px;
+  text-align: right;
+}
+.page-mainer .tupian-container .QRcode-container{
+  width: 90px;
+  height: 90px;
+  margin-bottom:10px;
+  text-align: right;
+}
+.page-footer{
+  text-align: center;
+  padding-bottom: 50px;
+}
